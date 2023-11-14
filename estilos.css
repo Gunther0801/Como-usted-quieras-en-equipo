@@ -1,0 +1,162 @@
+/* definir tamaño de letra en 62.5% para todo el documento html */
+/* 62.5% de 16px = 10px */
+/* 16px es a 100 entonces 10px son */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Definir tamaños de h1, h2, h3, y h4 */
+/*=== Tamaños principales de fuentes ===*/
+h1{
+    color: green;
+    font-size: 40px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 30px;
+    text-shadow: -2px -1px 1px green;
+}
+h4{
+    font-size: 26px;
+}
+
+/*=== Estilos recurrentes ==== */
+/* por ejemplo centrar-texto, contenedor, fuente300 etc */
+.centrar-texto{
+    text-align: center;
+}
+.fuente300{
+    font-weight: 300;
+}
+.contenedor{
+    max-width:1200px; 
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+/* crear clase contenedor */
+/* probar max-width: XXXpx */
+/* margin: 0 auto */
+.razones i{
+    text-shadow:3px 5px 5px black;
+    position: relative;
+
+}
+.bold{
+    font-weight: 200;
+}
+
+/*=== Estilos botones ==== */
+/* .boton */
+.boton{
+    color: green;
+    /* font-weight: 500; */
+    text-decoration: none;
+    /* text-align: none; */
+    padding: 10px 20px; 
+    border-style: double;
+    margin-top: 20px;
+    display: block;
+    border-radius: 20px; 
+    text-shadow: -1px -1px 1px black
+}
+/* .boton-principal */
+.boton-principal{
+    background-color: burlywood;
+    font-size: 15px;
+}
+
+/* SECCIONES */
+/*=== HEADER ==== */
+header{
+    background-image: url(../images/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Revisar efecto de justify-content: space-between */
+/* revisar align-items: center */
+.barra{
+    display: flex;    
+}
+
+/* .slogan */
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+/*=== NAVEGACION ==== */
+/* crear estilos de .navegación a */
+
+/* utilizar pseudoclases .navegación a:hover */
+
+.centrar-menu{
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+
+/*=== ¿POR QUE ELEGIRNOS? ==== */
+
+.elegirnos, .oferta{
+    display: flex;
+    justify-content: space-around;
+}
+.razones{
+    padding: 20px;
+}
+.razones i{
+    color: green;
+    font-size: 45px;
+}
+/*==== SERVICIOS ==== */
+/* crear .servicio */
+.servicio{
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 15px;
+    margin: 10px;
+}
+.servicio img {
+    border-style: solid ;
+    border-radius: 10px;
+    color: darkgreen;
+}
+/* crear .contenido-servicio */
+.contenido-servicio{
+    padding: 10px;
+}
+/* crear .precio */
+.precio{
+    color: teal;
+    font: weight 700px; ;
+}
+.numeros{
+    background-color: lightsalmon;
+    
+}
+.informacion i{
+    font-size: 70px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.boton_S{
+background-color: green;
+    padding: 5px 10px;
+
+}
+    
